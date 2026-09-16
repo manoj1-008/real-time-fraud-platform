@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111318;
+  color: white;
+}
+
+.dashboard {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+
+.stat-card {
+  background: #1b1e26;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.stat-card h3 {
+  font-size: 15px;
+  color: #aaa;
+}
+
+.stat-card p {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1b1e26;
+}
+
+th,
+td {
+  padding: 14px;
+  border: 1px solid #333;
+  text-align: left;
+}
+
+th {
+  background: #222631;
+}
+
+.error {
+  background: #3a1f1f;
+  border: 1px solid #7a3333;
+  padding: 12px;
+  border-radius: 6px;
+}
+.form-section {
+  background: #1b1e26;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 35px;
+}
+
+.form-section form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.form-section input,
+.form-section select {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #111318;
+  color: white;
+  font-size: 15px;
+}
+
+.form-section button {
+  grid-column: 1 / -1;
+  padding: 13px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-section button:hover {
+  opacity: 0.9;
+}
